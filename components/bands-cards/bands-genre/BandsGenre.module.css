@@ -1,0 +1,28 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+
+  gap: var(--padding2);
+  position: relative;
+}
+
+.list > * {
+  flex-basis: calc(33.33% - var(--padding2));
+  /* Adjust the percentage value as needed */
+}
+
+
+
+
+.header {
+  font-size: var(--type-h4);
+  color: #4aff03;
+  line-height: 1.3;
+  margin-bottom: var(--padding2);
+  margin-top: var(--padding3);
+  font-family: var(--secondary-font);
+  width: 100%;
+  position: relative;
+}
+

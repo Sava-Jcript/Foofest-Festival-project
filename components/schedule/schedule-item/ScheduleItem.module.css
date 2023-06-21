@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Baumans&family=Bungee+Inline&family=Bungee+Shade&family=Cairo&family=Faster+One&family=Fugaz+One&family=Inter:wght@300;600;900&family=JetBrains+Mono:wght@100;800&family=Joan&family=Kdam+Thmor+Pro&family=Keania+One&family=Major+Mono+Display&family=MedievalSharp&family=Roboto&family=Space+Grotesk:wght@500;700&family=Syncopate:wght@700&family=Syne:wght@700;800&family=Tilt+Prism&family=Ubuntu+Mono:wght@400;700&display=swap');
+
+.item {
+  display: flex;
+  gap: 7rem;
+  padding-bottom: 1rem;
+  position: relative;
+  margin-top:  var(--padding2);
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: var(--padding4);
+  color: var(  --primary-color2);
+  border-top: 20px solid black;
+  font-size: 1.5rem;
+
+
+}
+.item::after {
+  content: "";
+  position: absolute;
+  height: 1px;  
+  inset: auto 0 -1.3rem 0;
+  background-color: var(--primary-color2);
+
+}
+.item div {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+}
+.specs {
+  order: -1;
+  position: relative;
+  padding-left: var(--spacing-xs);
+}
+.specs::before {
+  content: "";
+  width: 3px;
+  height: 100%;
+  position: absolute;
+  inset: 0 auto 0 0;
+  border-radius: 10px;
+
+}
+
+.bottomText, .topText {
+  color: var(--secondary-300);
+  font-weight: 700;
+  
+
+}
+.starYellow {
+  color: var(--accent-yellow);
+}
+.starGrey {
+  color: var(--secondary-100);
+}
+.starGrey,
+.starYellow {
+  margin-left: auto;
+}
+@media only screen and (max-width: 600px) {
+  .item {
+    font-size: 1.1rem;
+  }
+}

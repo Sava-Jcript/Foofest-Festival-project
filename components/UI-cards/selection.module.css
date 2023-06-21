@@ -1,0 +1,36 @@
+.option{
+  margin-left: 5rem;
+  margin-bottom: 6rem;
+  gap: 5px;
+  font-family: inter;
+  font-size: 1.3rem;
+  
+  background-color:var(--color-accent2);;
+  width: 14rem;
+  height: 70px;
+  
+  
+  
+  color:#000000;
+  border: 1px solid #000000;
+  box-shadow: 4px 4px 0px #000000;
+  border-radius: 4px;
+}
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+  
+ 
+
+
+    
+    .option {
+     
+     font-size: 1rem;
+     
+     
+    }
+   }

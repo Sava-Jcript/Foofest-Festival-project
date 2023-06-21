@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255; */
+  --font-headline: 'Technor', sans-serif;
+  --font-paragraph: 'Supreme', sans-serif;
+
+  --color-primary1: #10181d;
+  --color-primary2: #1f2f39;
+  --color-secondary1: #ffffff;
+  --color-secondary2: #000000;
+  --color-accent1: #ff0084;
+  --color-accent2: #23fdd7;
+
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}

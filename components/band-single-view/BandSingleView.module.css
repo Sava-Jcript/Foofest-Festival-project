@@ -1,0 +1,104 @@
+.BandView {
+  background-color:var(--color-primary1);
+
+  color: var(--secondary-100);
+  padding-top: var(--padding3);
+  padding-bottom: var(--padding3);
+
+}
+
+.BandView > div {
+  display: flex;
+  flex-direction: column;
+  gap: var(--padding3);
+  width: 70%;
+  margin: auto;
+}
+.top {
+  display: flex;
+  flex-direction: column;
+  gap: var(--padding3);
+  margin-top:var(--padding3) ;
+  margin-top: 6rem;
+
+}
+
+.top > button {
+  width: 7%;
+}
+
+.BandImage {
+  align-self: center;
+  object-fit: contain;
+  border: 3px solid black;
+  border-radius: var(--padding3);
+  width: 50%;
+  height: 30%;
+  filter: drop-shadow(0 0 5px #fff) drop-shadow(0 0 10px #4aff03) drop-shadow(0 0 30px #0bf92b);
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--padding3);
+}
+
+.title h1 .title h2{
+  font-size: var(--padding3);
+  color: var(--primary-color-2);
+  font-family: 'Ubuntu Mono', monospace ;
+  line-height: 1;
+}
+
+.description {
+  color: var(--color-secondary1);
+  font-family: 'Ubuntu Mono', monospace;
+
+}
+
+.description h2 {
+  font-size: var(--padding2);
+  line-height: 1.4;
+  margin-bottom: var(--padding2);
+  color: var(--color-accent2);
+  
+}
+.description p {
+  font-size:  var(--padding2);
+  line-height: 1.4;
+}
+
+h2.bandName {
+  font-size: var(--padding4);
+  font-family: var(--main-font);
+  margin-top: 2rem;
+  color: var(--color-accent1);
+  
+}
+.memberList h3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--padding2);
+  color: var(--color-accent1);
+  font-size: var(--padding2);
+  font-family: 'Fugaz One', cursive;
+  margin-bottom: 10px;
+}
+
+.memberList > ul {
+  display: flex;
+  flex-direction: column;
+  gap: var(  --padding3);
+}
+
+
+.bandGenre {
+  font-size: var(--padding1);
+  font-family: 'Fugaz One', cursive;
+
+}
+
+

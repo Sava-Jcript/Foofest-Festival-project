@@ -1,0 +1,32 @@
+{
+  "name": "woodstock-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fireworks-js/react": "^2.10.5",
+    "@supabase/auth-helpers-nextjs": "^0.5.2",
+    "@supabase/auth-helpers-react": "^0.3.1",
+    "eslint": "8.29.0",
+    "eslint-config-next": "13.0.6",
+    "fireworks-js": "^2.10.5",
+    "install": "^0.13.0",
+    "next": "13.0.6",
+    "postcss": "^8.4.24",
+    "prop-types": "^15.8.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-input-mask": "^3.0.0-alpha.2",
+    "react-numeric-input": "^2.2.3",
+    "tailwindcss": "^3.3.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "cross-env": "^7.0.3"
+  }
+}

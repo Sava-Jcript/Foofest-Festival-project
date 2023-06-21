@@ -1,0 +1,271 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baumans&family=Bungee+Inline&family=Bungee+Shade&family=Cairo&family=Faster+One&family=Fugaz+One&family=Inter:wght@300;600;900&family=JetBrains+Mono:wght@100;800&family=Joan&family=Kdam+Thmor+Pro&family=Keania+One&family=Major+Mono+Display&family=MedievalSharp&family=Roboto&family=Rubik+Mono+One&family=Space+Grotesk:wght@500;700&family=Syncopate:wght@700&family=Syne:wght@700;800&family=Tilt+Prism&family=Ubuntu+Mono:wght@400;700&display=swap');
+    
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+:root {
+  /* Icons and illustrations colours */
+  --accent-green: #24ad42;
+  --accent-teal: #13b7c8;
+  --accent-blue: #1161ed;
+  --accent-purple: #7427aa;
+  --accent-yellow: #7427aa;
+  --primary-color-2: #7427aa;
+  --accent-red: #f61944;
+  --accent-pink: #e051ad;
+
+
+  
+
+  /* Main colours */
+  --primary-color: #7427aa;
+  --primary-color2: #111117;
+  --secondar-color: #b4b4b5;
+  
+  --secondary-300: #e8f5fc;
+  --secondary-200: #d1d9de;
+  --secondary-100: #b1c3cc;
+
+  
+  /* THE TRUE ONES */
+  --color-primary1: #10181d;
+  --color-primary2: #1f2f39;
+  --color-secondary1: #ffffff;
+  --color-secondary2: #000000;
+  --color-accent1: #ff0084;
+  --color-accent2: #23fdd7;
+
+
+
+  /* Spacings */
+
+
+
+  --padding2: 1.25rem;
+  --padding3: 2rem;
+  --padding4: 3.25rem;
+
+
+
+
+  /* Typography */
+  --type-small: 0.8rem;
+  --type-label: 0.875rem;
+  --type-body: 1rem;
+  --type-big-body: 1.2rem;
+  --type-h5: 1.4rem;
+  --type-h4: 1.728rem;
+  --type-h3: 2.074rem;
+  --type-h2: 2.488rem;
+  --type-h1: 2.986rem;
+
+  /* font-family */
+  --main-font: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  --secondary-font: "Josefin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+
+
+}
+html {
+  background-color: var(--secondar-color);
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 0.875em;
+  font-family: var(--main-font);
+ background-color: #000000;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.container {
+
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+button {
+  border: none;
+  appearance: none;
+}
+
+@media only screen and (min-width: 1200px) {
+  :root {
+    /* Typography */
+    --type-small: 0.8rem;
+    --type-label: 0.875rem;
+    --type-body: 1rem;
+    --type-big-body: 1.33rem;
+    --type-h5: 1.77rem;
+    --type-h4: 2.369rem;
+    --type-h3: 3.157rem;
+    --type-h2: 4.209rem;
+    --type-h1: 5.61rem;
+  }
+  html,
+  body {
+    font-size: 1em;
+  }
+}
+
+.festivalMapWrapper {
+  padding: var(--padding2);
+  border: solid 1px var(--primary-300);
+  box-sizing: border-box;
+  max-width: 96%;
+  margin: auto;
+  margin-top: var(--spacing-xl);
+  border-radius: var(--padding2);
+}
+
+
+ol,
+ul {
+  list-style: none;}
+
+
+  .input1, .input, .checkbox {
+    color: var(--color-secondary1);
+    font-family: var(--secondary-font);
+    font-size: 1.5rem;
+    display: flex;
+    margin-left: 5rem;
+    margin-block: 1rem;
+    gap: 2rem;
+}
+
+.input2, .header{
+    font-family: var(--secondary-font);
+    font-size: 1.5rem;
+    display: flex;
+    margin-left: 5rem;
+    width: 10%;
+
+
+}
+
+.numeric{
+    width: 10rem;
+    
+}
+
+
+
+.header1, .header{
+    font-family: var(--secondary-font);
+    font-size: 1.9rem;
+    display: flex;
+    margin-left: 5rem;
+    width: 10%;
+
+}
+
+@media only screen and (max-width: 800px) {
+  
+ 
+
+
+    
+     .input1, .input2 {
+      
+      font-size: 1rem;
+      
+      
+     }
+    }
+
+.header1{
+
+            font-family: var(--secondary-font);
+            font-size: 1.9rem;
+            display: flex;
+            margin-left: 5rem;
+            width: 10%;
+        
+
+    }
+
+
+    .header{
+        font-family: var(--secondary-font);
+        font-size: 1.9rem;
+        display: flex;
+        margin-left: 5rem;
+        width: 10%;
+    color: aliceblue;
+    }
+    
+
+    section.header{
+        font-family: var(--secondary-font);
+        font-size: 1.9rem;
+        display: flex;
+        margin-left: 5rem;
+        width: 10%;
+    color: aliceblue;
+    }
+    
+
+
+
+.element{
+        font-family: var(--secondary-font);
+        font-size: 1.9rem;
+        display: flex;
+        margin-left: 5rem;
+        width: 10%;
+    color: aliceblue;
+    }
+
+
+
+
+          h3{
+            font-family: var(--secondary-font);
+            font-size: 1.9rem;
+            display: flex;
+
+
+        color: aliceblue;
+
+
+        }
+
+ 
+
+
+        .zabi{
+          margin-top: 330rem;
+        }
+
+
+
+h5{
+
+          font-family: var(--main-font);
+          font-weight: bold;
+          font-size: 3rem;
+margin-left: 5rem;
+
+          margin-bottom: 1rem;
+
+          z-index: 90000;
+      margin-top: 10rem;
+      background-color:transparent;
+         }
+        

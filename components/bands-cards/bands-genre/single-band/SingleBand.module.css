@@ -1,0 +1,38 @@
+
+
+
+
+
+.img {
+  width: 20rem;
+  height: auto;
+  aspect-ratio: 3/2;
+  display: block;
+  object-fit: contain;
+  border-radius: 0.8rem;
+  overflow: hidden;
+  background-color: var(--primary-300);
+
+}
+
+.wrapper {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+}
+
+.wrapper h2 {
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: var(--padding2);
+  font-size: 1rem;
+  color: var(--primary-300);
+  background:#8c65d0;
+  backdrop-filter: blur(2px);
+  font-family: 'Rubik Mono One', sans-serif;
+
+}

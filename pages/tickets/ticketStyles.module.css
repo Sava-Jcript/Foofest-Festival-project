@@ -1,0 +1,416 @@
+
+
+.zaba{
+  margin-top: 9rem;
+}
+
+.hero{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: var(--color-primary2) ;
+  height: 50vh;
+
+  
+
+ }
+
+.hero h1{
+  color:aliceblue;
+  font-family: var(--main-font);
+  font-weight: bold;
+  font-size: 3.8rem;
+  margin-inline: 34rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  z-index: 90000;
+
+ }
+
+
+ .tickets{
+  background-color: var(--color-primary2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 5rem;
+
+
+
+ 
+  
+ }
+
+ .tickets h1{
+  color: var(--color-accent2);
+  font-family: var(--main-font);
+  font-weight: bold;
+  font-size: 3rem;
+  margin-left: 34rem;
+  margin-top: 2rem;
+ }
+
+ .tickets h2{
+  color:aliceblue;
+  font-family: var(--main-font);
+
+  font-size: 1.4rem;
+margin-left: 5rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  margin-top: 2rem;
+  z-index: 90000;
+ }
+
+
+
+.bookingfee{
+margin-left: 5rem;
+color: var(--color-accent2);
+margin-top: -4rem;
+}
+
+
+
+.SideSection h3{
+  margin-left: 20rem;
+}
+
+
+
+ @media only screen and (max-width: 800px) {
+
+  .hero{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--color-primary1) ;
+    height: 100vh;
+    width: 100vw;
+    
+  
+   }
+  
+   .hero h1{
+  
+    font-size: 2rem;
+    margin-left: 5rem;
+    width: 60%;
+    
+    
+   }
+
+   .tickets h2{
+    font-size: 2rem;
+   }
+
+
+  
+   .hero p {
+    
+    font-size: 1rem;
+    width: 65%;
+    line-height: 2rem;
+    margin-left: 5rem;
+    
+   }
+  }
+
+  .zaba{
+    color: var(--color-accent2);
+    font-family: var(--main-font);
+    font-weight: bold;
+    font-size: 3rem;
+
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+
+
+
+.bookingfee1{
+
+margin-top: 4rem;
+margin-bottom: 2rem;
+}
+
+.bookingfee p{
+margin-top: 0.6rem;
+color: aliceblue;
+}
+
+
+.fullBody{
+background-color: var(--color-primary2);
+margin-top: 5rem;
+}
+
+.hero1 button{
+margin-left: 5rem;
+margin-bottom: 6rem;
+margin-top: 2rem;
+gap: 5px;
+font-family: inter;
+font-size: 1.1rem;
+
+background-color:var(--color-accent2);
+width: 14rem;
+height: 70px;
+
+
+
+color:rgb(0, 0, 0);
+border: 1px solid #000000;
+box-shadow: 4px 4px 0px #000000;
+border-radius: 4px;
+        }
+
+.hero1{
+  background-color:var(--color-primary2);
+
+}
+
+
+
+.zabi{
+margin-top: 5rem;
+color: var(--color-accent2);
+    font-family: var(--main-font);
+    font-weight: bold;
+    font-size: 3rem;
+margin-left: 30rem;
+    margin-bottom: 5rem;
+    width: 100%;
+}
+
+.title{ 
+
+
+    font-family: var(--main-font);
+    font-weight: bold;
+    font-size: 1rem, rgb(216, 19, 19);
+    margin-left: 5rem;
+
+margin-bottom: 2rem;
+display: flex;
+
+
+
+
+width: 23rem;
+height: 5rem;
+
+background: black;
+border: 1px solid #000000;
+box-shadow: 4px 4px 0px var(--color-accent2);
+border-radius: 4px;
+
+  
+}
+
+.bodys{
+background-color: bisque;
+}
+
+
+
+
+
+
+
+.Woke{
+margin-top: 10rem;
+color:aliceblue;
+    font-family: var(--main-font);
+    font-weight: bold;
+    font-size: 3rem;
+margin-left: 30rem;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+
+
+.overlay {
+
+
+transform: translate(-50%, -50%);
+
+margin-left: 44rem;
+margin-top: 26rem;
+color: var(--color-accent2);
+font-size: 1rem;
+
+}
+
+
+.fullBody{
+  background-color: var(--color-primary2);
+}
+
+
+
+.title2{ 
+
+
+  font-size: 1.4rem;
+  font-family: var(--main-font);
+  font-weight: bold;
+  font-size: 1.4rem;
+margin-left: 2rem;
+
+color: var(--color-accent2);
+margin-left: 5rem;
+  }
+
+
+.title22{  font-size: 1.4rem;
+  font-family: var(--main-font);
+  font-weight: bold;
+  font-size: 1.4rem;
+margin-left: 2rem;
+
+color: var(--color-accent2);
+margin-left: 3rem;}
+
+
+  .title00{ 
+
+
+    font-family: var(--main-font);
+    font-weight: bold;
+    font-size: 1.9rem, black;
+    margin-left: 5rem;
+
+margin-bottom: 2rem;
+display: flex;
+
+
+
+
+width: 10rem;
+height: 5rem;
+
+background: black;
+border: 1px solid #000000;
+box-shadow: 4px 4px 0px var(--color-accent2);
+border-radius: 4px;
+
+  
+}
+
+.title0000{
+  font-family: var(--main-font);
+  font-weight: bold;
+  font-size: 1.9rem, black;
+  margin-left: 3rem;
+
+margin-bottom: 2rem;
+display: flex;
+
+
+
+
+width: 10rem;
+height: 5rem;
+
+background: black;
+border: 1px solid #000000;
+box-shadow: 4px 4px 0px var(--color-accent2);
+border-radius: 4px;
+}
+
+.title000{ 
+
+
+  font-family: var(--main-font);
+  font-weight: bold;
+  font-size: 1.9rem, black;
+  margin-left: 5rem;
+
+margin-bottom: 2rem;
+display: flex;
+
+
+
+
+width: 23rem;
+height: 9rem;
+
+background: black;
+border: 1px solid #000000;
+box-shadow: 4px 4px 0px var(--color-accent2);
+border-radius: 4px;
+
+
+}
+
+.title1{
+
+  font-size: 1.4rem;
+  font-family: var(--main-font);
+  font-weight: bold;
+  font-size: 1.4rem;
+margin-left: 2rem;
+
+color: var(--color-accent1);
+margin-left: 5rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+
+
+
+/* ticketStyles.module.css */
+
+
+
+.formGroup {
+  display: flex;
+
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+
+.formGroup1 {
+  display: flex;
+
+}
+
+
+.bailing{
+  margin-top: -9.3rem;
+
+}
+
+
+.title00000{ 
+
+
+  font-family: var(--main-font);
+  font-weight: bold;
+  font-size: 1.9rem, black;
+  margin-left: 5rem;
+
+margin-bottom: 2rem;
+display: flex;
+
+
+
+
+width: 23rem;
+height: 14.4rem;
+
+background: black;
+border: 1px solid #000000;
+box-shadow: 4px 4px 0px var(--color-accent2);
+border-radius: 4px;
+
+
+}

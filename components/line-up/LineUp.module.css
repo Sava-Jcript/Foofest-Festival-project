@@ -1,0 +1,248 @@
+.container {
+
+    background-color: var(--color-primary1);
+    overflow-x: hidden;
+
+}
+  
+  
+  
+  
+  .zektion{
+    background-color:var(--color-secondary2);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  
+  }
+  
+  
+  .zektion > img {
+    filter: drop-shadow(0 0 5px #fff) drop-shadow(0 0   10px #4aff03) drop-shadow(0 0 30px #ff0099);
+    width: 50%;
+    margin-top: 10%;
+    
+  
+  
+  
+  }
+  
+  .container >.bandz{
+    margin-left: 5rem;
+  }
+  
+  .lineUp {
+    font-size: var(--padding4);
+    color: var(--color-accent1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10rem;
+    
+    box-sizing: border-box;
+    font-family: 'Rubik Mono One', sans-serif;
+  background-color: var(--color-primary1);
+   }
+  
+  .bandz {
+    color: var(--color-accent1);
+  background-color: var(--color-primary1);
+  
+  box-sizing: border-box;
+  padding-bottom: 10rem;
+   }
+  
+  
+   .hero{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--color-primary1) ;
+    height: 100vh;
+    width: 100vw;
+    
+  
+   }
+  
+   .hero h1{
+    color: var(--color-accent1);
+    font-family: var(--main-font);
+    font-weight: bold;
+    font-size: 3rem;
+    margin-inline: 20rem;
+   }
+  
+   .hero p {
+    color: var(--color-secondary1);
+    font-family: var(--secondary-font);
+    font-size: 1.5rem;
+    margin-inline: 20rem;
+   }
+  
+   .find{
+    border-radius: 6px;
+    padding: .5rem;
+    font-family: var(--main-font);
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: var(--color-primary1);
+    background-color: var(--color-accent2);
+    margin-top: 3rem;
+    width: 15%;
+    margin-inline: 20rem;
+   }
+  
+   .who{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--color-primary2) ;
+    height: 100vh;
+    width: 100vw;
+    
+  
+   }
+  
+   .who h1{
+    color: var(--color-accent1);
+    font-family: var(--main-font);
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    
+   }
+  
+   .who p {
+    color: var(--color-secondary1);
+    font-family: var(--secondary-font);
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 4rem;
+    margin-inline: 20rem;
+   }
+  
+  
+   .visit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--color-primary1) ;
+    height: 100vh;
+    width: 100vw;
+    
+  
+   }
+  
+   .visit h1{
+    color: var(--color-accent1);
+    font-family: var(--main-font);
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    
+   }
+  
+   .event{
+    color: var(--color-accent2);
+   }
+  
+  
+   @media only screen and (max-width: 900px) {
+    
+    .hero{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: var(--color-primary1) ;
+      height: 100vh;
+      width: 100vw;
+      
+    
+     }
+    
+     .hero h1{
+    
+      font-size: 2rem;
+      margin-left: 8rem;
+      
+     }
+    
+     .hero p {
+      
+      font-size: 1rem;
+      width: 65%;
+      line-height: 2rem;
+      
+     }
+    
+     .find{
+      border-radius: 6px;
+      padding: .5rem;
+      font-family: var(--main-font);
+      font-weight: bold;
+      font-size: 1.5rem;
+      color: var(--color-primary1);
+      background-color: var(--color-accent2);
+      margin-top: 3rem;
+      width: 15%;
+      margin-inline: 20rem;
+     }
+    
+     .who{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: var(--color-primary2) ;
+      height: 100vh;
+      width: 100vw;
+      
+    
+     }
+    
+     .who h1{
+      color: var(--color-accent1);
+      font-family: var(--main-font);
+      font-weight: bold;
+      font-size: 3rem;
+      text-align: center;
+      
+     }
+    
+     .who p {
+      color: var(--color-secondary1);
+      font-family: var(--secondary-font);
+      font-size: 1.5rem;
+      text-align: center;
+      line-height: 4rem;
+      margin-inline: 20rem;
+     }
+    
+    
+     .visit{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: var(--color-primary1) ;
+      height: 100vh;
+      width: 100vw;
+      
+    
+     }
+    
+     .visit h1{
+      color: var(--color-accent1);
+      font-family: var(--main-font);
+      font-weight: bold;
+      font-size: 3rem;
+      text-align: center;
+      
+     }
+  
+   }

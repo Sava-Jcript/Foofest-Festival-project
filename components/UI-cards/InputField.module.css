@@ -1,0 +1,103 @@
+.input1, .input, .checkbox {
+    color: var(--color-secondary1);
+    font-family: var(--secondary-font);
+    font-size: 1.5rem;
+    display: flex;
+    margin-left: 5rem;
+    margin-block: 1rem;
+    gap: 2rem;
+}
+
+.input2, .header{
+    font-family: var(--secondary-font);
+    font-size: 1.5rem;
+    display: flex;
+    margin-left: 5rem;
+    width: 10%;
+
+
+}
+
+.numeric{
+    width: 10rem;
+    font-family: var(--secondary-font);
+    width: 166px;
+    height: 42px;
+    left: 254.48px;
+    top: 233px;
+    
+    background:var(--color-accent2);
+    border: 1px solid #000000;
+    box-shadow: 4px 4px 0px #000000;
+    border-radius: 4px;
+}
+
+
+
+.header1, .header{
+    font-family: var(--secondary-font);
+    font-size: 1.9rem;
+    display: flex;
+    margin-left: 5rem;
+    width: 10%;
+
+}
+
+@media only screen and (max-width: 800px) {
+  
+ 
+
+
+    
+     .input1, .input2 {
+      
+      font-size: 1rem;
+      
+      
+     }
+    }
+
+.header1{
+
+            font-family: var(--secondary-font);
+            font-size: 1.9rem;
+            display: flex;
+            margin-left: 5rem;
+            width: 10%;
+        
+
+    }
+
+
+    .header{
+        font-family: var(--secondary-font);
+        font-size: 1.9rem;
+        display: flex;
+        margin-left: 5rem;
+        width: 10%;
+    color: aliceblue;
+    }
+    
+
+    section.header{
+        font-family: var(--secondary-font);
+        font-size: 1.9rem;
+        display: flex;
+        margin-left: 5rem;
+        width: 10%;
+    color: aliceblue;
+    }
+    
+
+
+
+.element{
+        font-family: var(--secondary-font);
+        font-size: 1.9rem;
+        display: flex;
+        margin-left: 5rem;
+        width: 10%;
+    color: aliceblue;
+    }
+
+  
